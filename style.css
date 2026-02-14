@@ -27,8 +27,16 @@ p {
     background-color: #F7F7F7
 }
 
-li{
-    font-size: 1.2rem;
+.copyright{
+    font-weight: bold;
+}
+
+.hero-icon { height: 72px; width: auto; }
+.hero-code { height: 36px; width: auto; }
+
+@media (max-width: 576px) {
+  .hero-icon { height: 56px; }
+  .hero-code { height: 28px; }
 }
 
 .copyright{
